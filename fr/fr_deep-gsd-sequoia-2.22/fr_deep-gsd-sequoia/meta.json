@@ -1,0 +1,35 @@
+{
+  "lang":"fr",
+  "name":"deep-gsd-sequoia",
+  "pipeline":[
+    "tagger",
+    "parser"
+  ],
+  "accuracy":{
+    "uas":88.800299925,
+    "las":85.8485378655,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "tags_acc":96.5583604099,
+    "token_acc":100.0
+  },
+  "speed":{
+    "nwords":40010,
+    "cpu":4938.8519798232,
+    "gpu":null
+  },
+  "spacy_version":">=2.0.12.dev0",
+  "version":"2.22",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
+  }
+}
